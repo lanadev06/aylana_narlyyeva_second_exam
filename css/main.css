@@ -1,0 +1,75 @@
+.bg-image-intre {
+    background-image: url("../images/banner-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(20, 14, 43, 0.5);
+}
+
+.bg-image-between2 {
+    background-image: url("../img/03.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-between1 {
+    background-image: url("../img/02.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hover-1 {
+    position: relative;
+
+}
+
+
+.hover-1:hover {
+        background-color: #f529c9;
+        color: rgb(16, 94, 240);
+    
+}
+
+.hover-2 {
+    position: relative;
+}
+
+.hover-2:hover {
+        background-color: white;
+        color: black ;
+}
+
+.colorr {
+    color: #87A8EB;
+}
+
+
+
+
+@keyframes hover-1 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}
